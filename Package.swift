@@ -18,12 +18,12 @@ let package = Package(
         .binaryTarget(
             name: "SightCallSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/5.8.0/SightCallSDK.xcframework.zip",
-            checksum: "808521174a5646542577a0ab5a37ca675cfa5e148e2b21c2efff34bf1d07cb2d"
+            checksum: "da7889c2f45a2123ee114f6eb1eec3f9ed5f0c9248aa939b10a3d673486a1c89"
         ),
         .binaryTarget(
             name: "SightCallBroadcastSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallBroadcastSDK/5.8.0/SightCallBroadcastSDK.xcframework.zip",
-            checksum: "f8a6ca689612abff9072c93e37b843e05bfd01050d07825819bc700fc7f7ce0f"
+            checksum: "f114efea4df77256994b91946a4a96b1e46674bd8914257c6d368a30df1f61d7"
         ),
     ]
 )

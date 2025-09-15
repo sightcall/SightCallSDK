@@ -16,10 +16,12 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
+            name: "SightCallSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/5.8.0/SightCallSDK.xcframework.zip",
             checksum: "808521174a5646542577a0ab5a37ca675cfa5e148e2b21c2efff34bf1d07cb2d"
         ),
         .binaryTarget(
+            name: "SightCallBroadcastSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallBroadcastSDK/5.8.0/SightCallBroadcastSDK.xcframework.zip",
             checksum: "f8a6ca689612abff9072c93e37b843e05bfd01050d07825819bc700fc7f7ce0f"
         ),

@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "SightCallSDK",
-            targets: ["SightCallSDK", "SightCallBroadcastSDK"]),
+            targets: ["SightCallSDK"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -19,11 +19,6 @@ let package = Package(
             name: "SightCallSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/42.42.42/SightCallSDK.xcframework.zip",
             checksum: "f309574326474f5378cecc929418268c5bde4bd6d83d08a10bf0d55443201d4e"
-        ),
-        .binaryTarget(
-            name: "SightCallBroadcastSDK",
-            url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallBroadcastSDK/5.8.0/SightCallBroadcastSDK.xcframework.zip",
-            checksum: "f309574326474f5378cecc929418268c5bde4bd6d83d08a10bf0d55443201d4e"
-        ),
+        )
     ]
 )

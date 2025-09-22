@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "SightCallSDK",
             url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/42.42.42/SightCallSDK.xcframework.zip",
-            checksum: "f309574326474f5378cecc929418268c5bde4bd6d83d08a10bf0d55443201d4e"
+            checksum: "31755dc2b103c650a1b542bc5aa4efce068e778f60ac893662865e0c7d457c11"
         )
     ]
 )

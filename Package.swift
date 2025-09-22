@@ -17,7 +17,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "SightCallSDK",
-            url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/42.42.42/SightCallSDK.xcframework.zip",
+            url: "https://sightcall-ios-cocoapods.s3.amazonaws.com/SightCallSDK/42.42.43/SightCallSDK.xcframework.zip",
             checksum: "31755dc2b103c650a1b542bc5aa4efce068e778f60ac893662865e0c7d457c11"
         )
     ]
